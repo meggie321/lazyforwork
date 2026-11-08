@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320" fill="none">
+ <defs>
+  <linearGradient id="tea" x1="44" y1="100" x2="198" y2="278" gradientUnits="userSpaceOnUse"><stop stop-color="#F5C080"/><stop offset=".28" stop-color="#D9944E"/><stop offset=".72" stop-color="#B96931"/><stop offset="1" stop-color="#75401F"/></linearGradient>
+  <linearGradient id="cup" x1="43" y1="96" x2="191" y2="274" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8E9" stop-opacity=".88"/><stop offset=".16" stop-color="#F7DFC1" stop-opacity=".48"/><stop offset=".7" stop-color="#E6C7A7" stop-opacity=".48"/><stop offset="1" stop-color="#FFF6E8" stop-opacity=".8"/></linearGradient>
+  <linearGradient id="lid" x1="32" y1="72" x2="207" y2="111" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".5" stop-color="#CFD2D1"/><stop offset="1" stop-color="#F8F6F1"/></linearGradient>
+  <linearGradient id="straw" x1="119" y1="4" x2="139" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F1E8"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#D4D1C9"/></linearGradient>
+  <filter id="shadow" x="18" y="54" width="218" height="261" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5"/></filter>
+ </defs>
+ <ellipse cx="124" cy="299" rx="84" ry="9" fill="#16120E" fill-opacity=".25" filter="url(#shadow)"/>
+ <path d="M130 12 145 8 174 107 159 112 130 12Z" fill="#171716" fill-opacity=".18"/>
+ <path d="m117 8 17-4 28 101-16 4L117 8Z" fill="url(#straw)" stroke="#C9C6BE" stroke-width="2"/>
+ <path d="M34 91c2-12 13-20 27-20h117c14 0 25 8 28 20l18 177c2 22-14 39-36 39H72c-22 0-38-17-36-39L54 93" fill="url(#tea)"/>
+ <path d="M52 96c2-9 10-14 21-14h112c11 0 19 5 21 14l16 169c2 16-9 27-25 27H61c-16 0-27-11-25-27L52 96Z" fill="url(#cup)" stroke="#E9DED0" stroke-width="4"/>
+ <path d="M54 184c37 10 102 10 157-2l8 82c2 16-9 28-25 28H61c-16 0-27-12-25-28l18-80Z" fill="url(#tea)" fill-opacity=".9"/>
+ <path d="M67 102c-9 44-16 96-17 127" stroke="#fff" stroke-opacity=".68" stroke-width="9" stroke-linecap="round"/>
+ <path d="M46 85c2-12 13-20 29-20h116c16 0 27 8 29 20l-5 17c-1 7-8 12-16 12H67c-8 0-15-5-16-12l-5-17Z" fill="url(#lid)" stroke="#B9B9B5" stroke-width="4"/>
+ <path d="M72 65c5-11 15-17 29-17h64c14 0 24 6 29 17l-2 7H74l-2-7Z" fill="#F9F8F4" stroke="#C8C8C3" stroke-width="3"/>
+ <ellipse cx="132" cy="69" rx="22" ry="6" fill="#B5B7B5"/><ellipse cx="132" cy="67" rx="17" ry="3.8" fill="#F6F4EF"/>
+ <g fill="#211713" stroke="#55301D" stroke-width="2"><circle cx="68" cy="270" r="10"/><circle cx="94" cy="278" r="10"/><circle cx="120" cy="270" r="10"/><circle cx="146" cy="279" r="10"/><circle cx="172" cy="268" r="10"/><circle cx="80" cy="294" r="9"/><circle cx="107" cy="297" r="9"/><circle cx="134" cy="295" r="9"/><circle cx="160" cy="292" r="9"/></g>
+ <g fill="#9A6741" fill-opacity=".55"><circle cx="65" cy="267" r="3"/><circle cx="91" cy="275" r="3"/><circle cx="117" cy="267" r="3"/><circle cx="143" cy="276" r="3"/><circle cx="169" cy="265" r="3"/></g>
+ <rect x="81" y="151" width="80" height="34" rx="7" fill="#F5E8D2" fill-opacity=".82"/><text x="121" y="173" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#8B542F">波霸奶茶</text>
+</svg>
