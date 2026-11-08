@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" fill="none">
+ <defs>
+  <radialGradient id="wood" cx=".38" cy=".23" r=".83"><stop stop-color="#F9B34D"/><stop offset=".34" stop-color="#D77B22"/><stop offset=".72" stop-color="#9D4D18"/><stop offset="1" stop-color="#542712"/></radialGradient>
+  <linearGradient id="edge" x1="57" y1="45" x2="211" y2="145"><stop stop-color="#FFD080"/><stop offset=".52" stop-color="#B76120"/><stop offset="1" stop-color="#5A2A11"/></linearGradient>
+  <linearGradient id="mallet" x1="206" y1="149" x2="291" y2="180"><stop stop-color="#F3AE57"/><stop offset=".48" stop-color="#A85B25"/><stop offset="1" stop-color="#633316"/></linearGradient>
+  <filter id="shadow" x="18" y="19" width="286" height="176" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="6"/></filter>
+ </defs>
+ <ellipse cx="154" cy="169" rx="117" ry="13" fill="#090909" fill-opacity=".42" filter="url(#shadow)"/>
+ <!-- rounded fish-shaped wooden temple drum -->
+ <path d="M62 125c-22-14-26-42-10-63 11-15 29-23 48-24 20-23 54-31 83-21 19 7 32 20 38 38 20 8 34 24 37 44 3 22-10 42-31 51-8 14-25 23-42 20-11 9-30 12-43 5-20 8-43 5-58-8-13 3-27-2-35-12-10-3-17-14-17-25 0-2 1-4 2-5Z" fill="url(#wood)" stroke="#633217" stroke-width="7"/>
+ <path d="M72 123c-16-13-18-35-5-51 8-10 20-15 34-16 17-20 44-27 68-18 16 6 27 18 30 34 18 5 30 19 32 35 2 17-9 32-27 39-7 12-20 18-34 15-11 8-25 9-37 3-17 7-35 3-47-8-11 3-22-1-28-9-10-2-15-12-14-22Z" stroke="#F6B65D" stroke-opacity=".48" stroke-width="3"/>
+ <!-- carved round fish eye and cheek details -->
+ <ellipse cx="132" cy="64" rx="8" ry="6" fill="#572711"/><ellipse cx="130" cy="62" rx="2.2" ry="1.8" fill="#FFD38A"/>
+ <path d="M92 89c12-9 24-10 36-4m48 1c11-8 21-8 31-2M90 105c11-6 21-6 30-2m60 2c9-6 17-6 25-2" stroke="#713615" stroke-opacity=".72" stroke-width="4" stroke-linecap="round"/>
+ <!-- deep mouth slit -->
+ <path d="M73 104c25-14 55-16 80-10 22 5 42 5 61-2 10-4 19 3 17 12-3 14-14 23-31 24-34 2-68-12-101-4-12 3-25-1-30-8-3-4-1-9 4-12Z" fill="#401D10" stroke="#733714" stroke-width="4"/>
+ <path d="M83 104c24-8 48-8 71-2 23 6 42 6 61 0" stroke="#F1A44A" stroke-width="3" stroke-linecap="round"/>
+ <path d="M69 75c14-24 39-38 66-38" stroke="#FFE0A4" stroke-opacity=".64" stroke-width="8" stroke-linecap="round"/>
+ <!-- small round tail lobes -->
+ <path d="M231 82c18-14 34-10 42 4 8 15-1 29-18 34 17 8 20 23 9 33-12 11-30 6-38-9" fill="url(#edge)" stroke="#633217" stroke-width="6"/>
+ <path d="M241 91c12-7 21-3 23 5m-26 42c11 8 21 5 24-2" stroke="#F6B65D" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/>
+ <!-- wooden striker -->
+ <path d="m37 163 102-17 7 10-103 19-6-12Z" fill="url(#mallet)" stroke="#603216" stroke-width="3"/>
+ <path d="m30 162 7-7 13 17-8 8c-6 5-14 3-17-3-3-6 0-12 5-15Z" fill="#B56A2C" stroke="#603216" stroke-width="3"/>
+ <path d="m145 146 24-5c7-1 12 4 12 10 0 6-5 10-12 11l-23 4-7-10 6-10Z" fill="url(#mallet)" stroke="#603216" stroke-width="3"/>
+ <path d="m53 164 77-13" stroke="#FFD087" stroke-opacity=".62" stroke-width="3" stroke-linecap="round"/>
+</svg>
